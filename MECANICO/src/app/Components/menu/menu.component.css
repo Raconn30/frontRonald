@@ -1,0 +1,50 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 170px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 25px;
+  background-color: rgb(46, 221, 154);
+  color: #1f2124;
+}
+
+.toolbar{
+  color: rgb(0, 0, 0);
+}
+
+.names{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+} 
+
+.mat-mdc-list-base {
+  --mdc-list-list-item-label-text-color: #000000;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+
+.colorbar{
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.desing{
+  padding: 40px;
+  padding-top: 20px;
+}

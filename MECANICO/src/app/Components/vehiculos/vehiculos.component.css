@@ -1,0 +1,38 @@
+
+
+
+td, th {
+  width: 25%;
+}
+
+.container {
+  width: 100%;
+  height: 83.3%;
+}
+
+.opcion1, .opcion2{
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.opcion1{
+  color: rgb(13, 243, 63);
+  width: 40%;
+  height: 100%;
+}
+
+
+.opcion2{
+  color: rgb(236, 4, 4);
+}
+
+.botonesAcciones{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 15px;
+}
+
+.boton{
+  margin-top: 20px;
+  color: rgb(72, 240, 26);
+}

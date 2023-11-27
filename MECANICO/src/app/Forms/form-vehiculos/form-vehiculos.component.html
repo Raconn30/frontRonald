@@ -1,0 +1,52 @@
+<div class="container">
+  <form [formGroup]="vehiculosForm" novalidate (ngSubmit)="onSubmit()">
+    <mat-card class="shipping-card">
+      <mat-card-header>
+        <mat-card-title>Vehiculos</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input matInput placeholder="marca" formControlName="marca">
+              <mat-error *ngIf="vehiculosForm.controls['marca'].invalid">
+                {{mensajeDeError('marca')}}
+              </mat-error>
+            </mat-form-field>
+          </div>
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input matInput placeholder="color" formControlName="color">
+              <mat-error *ngIf="vehiculosForm.controls['color'].invalid">
+                {{mensajeDeError('color')}}
+              </mat-error>
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input matInput placeholder="Placa" formControlName="placa">
+              <mat-error *ngIf="vehiculosForm.controls['placa'].invalid">
+                {{mensajeDeError('placa')}}
+              </mat-error>
+            </mat-form-field>
+          </div>
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input matInput placeholder="Año" formControlName="anio">
+              <mat-error *ngIf="vehiculosForm.controls['anio'].invalid">
+                {{mensajeDeError('anio')}}
+              </mat-error>
+            </mat-form-field>
+          </div>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="centerbutton">
+          <button mat-raised-button color="primary" type="submit">Enviar</button>
+        </div>      
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</div>

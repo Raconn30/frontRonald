@@ -1,0 +1,75 @@
+.full-width {
+  width: 100%;
+}
+
+.shipping-card {
+  min-width: 120px;
+  margin: 20px auto;
+}
+
+.mat-radio-button {
+  display: block;
+  margin: 5px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+.col1{
+  width: 25%;
+  margin-right: 20px;
+}
+
+.col2{
+  width:75%;
+}
+
+.centerbutton {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: none;
+  border-radius: 20px;
+  display: flex;
+  width: 100%;
+  height: 83.3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipping-card{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 50px;
+}
+
+.container mat-card-header{
+  display: flex;
+  margin-bottom: 50px;
+  width: 90%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipping-card mat-card-title{
+  font-weight: bold;
+  font-size: x-large;
+  color: #5c5c5c;
+}
